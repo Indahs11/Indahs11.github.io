@@ -135,11 +135,8 @@ body{
     height : 100vh;
 }
 @media screen and (max-width: 991px) {
-    .main-content{
-        display: none;
-    }
     .blank-screen{
-        display: flex;
+        display: none;
     }
 }
 @media screen and (max-width: 991px) and (orientation : landscape) {
