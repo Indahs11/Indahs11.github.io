@@ -117,8 +117,7 @@ body{
     font-size: 16px !important;
     text-align: center;
     width: 50px;
-    height: 50px;
-    
+    height: 50px;  
 }
 .contact .social i{
     color: #e7a829;
@@ -135,15 +134,72 @@ body{
     height : 100vh;
 }
 @media screen and (max-width: 991px) {
-    .blank-screen{
-        display: none;
-    }
-}
-@media screen and (max-width: 991px) and (orientation : landscape) {
     body{
         overflow-y: visible;
         font-size: 12px;
     }
+    .page{
+        min-height: auto;
+        padding: 0px 20px;
+    }
+    .blank-screen{
+        display: none;
+    }
+    .down{
+        display: none;
+    }
+    .page-title{
+        font-size: 32px !important;
+    }
+    .home h1{
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    .home h5{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .home img{
+        width: 180px;
+        height: 180px;
+    }
+    .social i{
+        font-size: 18px;
+    }
+    .about-me img{
+        width: 80px;
+    }
+    .about-me h5{
+        font-size: 16px;
+    }
+    .skill i{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .portofolio .carousel-item .detail{
+        display: none;
+    }
+    .portofolio .carousel-item .row{
+        height: 150px;
+    }
+    .contact h1{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .contact img{
+        width: 150px;
+        margin-top: -150px;
+    }
+    .contact .social a{
+        border-radius: 35px;
+        width: 35px;
+        height: 35px;  
+    }
+    .contact .social i{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 991px) and (orientation : landscape) {
     .container{
         max-width: 580px !important;
     }
@@ -156,40 +212,10 @@ body{
     .page-name{
         font-size: 18px;
     }
-    .home h1{
-        font-size: 36px;
-    }
-    .home h5{
-        font-size: 16px;
-    }
-    .social i{
-        font-size: 18px;
-    }
     .about-me img{
         width: 100px;
     }
-    .about-me h5{
-        font-size: 14px;
-    }
-    .skill i{
-        font-size: 28px;
-    }
-    .portofolio .carousel-item .row{
-        height: 190px;
-    }
     .portofolio h5{
         font-size: 18px;
-    }
-    .contact h1{
-        font-size: 32px;
-    }
-    .contact img{
-        width: 200px;
-    }
-    .down{
-        display: none;
-    }
-    .page-title{
-        font-size: 32px !important;
     }
 }
