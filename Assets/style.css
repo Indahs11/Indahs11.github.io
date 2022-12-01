@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    overflow-y: hidden;
+}
+.page{
+    min-height: 100vh;
+    width: 100vw;
+}
+.text-lg{
+    font-size: 28px;
+    color: #DBC366;
+}
+.w-30{
+    width: 30% !important;
+}
+.w-28{
+    width: 28% !important;
+}
+.page-name{
+    padding-left: 15px;
+    color: #DBC366;
+    border-left: 3px solid #DBC366;
+}
+.page-title{
+    padding: 10px 0px;
+    font-size: 46px;
+    font-weight: 700;
+    color: #DBC366;
+}
+.page-detail{
+    font-size: 16px;
+}
+/* Home Page */
+.home h1{
+    margin-top: 70px;
+    font-size: 72px;
+    font-weight: 700;
+    color: #DBC366;
+}
+.home h5{
+    color: #A9A7A5;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.down i{
+    color: #e7a829;
+    opacity: 0.4;
+    font-size: 28px;
+}
+.social i{
+    color: #3E5561;
+    font-size: 28px;
+}
+
+.about-me i{
+    font-size: 28px;
+}
+
+/* Skill */
+.skill i{
+    color: #3E5561;
+    font-size: 48px;
+}
+
+/* Portofolio */
+.portofolio h1{
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #DBC366;
+}
+.portofolio h2{
+    font-size: 60px;
+}
+.portofolio p{
+    font-size: 14px;
+}
+.portofolio .carousel-indicators {
+    margin-bottom: -2rem;
+}
+.portofolio .carousel-control-next, .carousel-control-prev{
+    position: unset;
+    color: #e7a829 !important;
+    font-size: 24px;
+    width: 5%;
+}
+.portofolio .kontak a{
+    font-size: 24px;
+    color: #DBC366;
+    text-decoration: none;
+}
+.portofolio .carousel-item .row{
+    height: 380px;
+}
+.portofolio .carousel-item img{
+    width: 100%;
+    border: 2px solid #3e55613b;
+    border-radius: 5px;
+}
+/* Contact Me */
+.contact{
+    background-color: #E6BD6B;
+}
+.contact h1{
+    color: beige;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.px;
+}
+.contact .social a{
+    background-color: beige;
+    border: beige;
+    border-radius: 50px;
+    font-size: 16px !important;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    
+}
+.contact .social i{
+    color: #e7a829;
+    font-size: 20px;
+}
+.contact .down i{
+    color: beige;
+}
+.blank-screen{
+    background-color: #e7a829;
+    color: beige;
+    font-family: 'Signika', sans-serif;
+    width: 100vw;
+    height : 100vh;
+}
+@media screen and (max-width: 991px) {
+    .main-content{
+        display: none;
+    }
+    .blank-screen{
+        display: flex;
+    }
+}
+@media screen and (max-width: 991px) and (orientation : landscape) {
+    body{
+        overflow-y: visible;
+        font-size: 12px;
+    }
+    .container{
+        max-width: 580px !important;
+    }
+    .main-content{
+        display: block;
+    }
+    .blank-screen{
+        display: none;
+    }
+    .page-name{
+        font-size: 18px;
+    }
+    .home h1{
+        font-size: 36px;
+    }
+    .home h5{
+        font-size: 16px;
+    }
+    .social i{
+        font-size: 18px;
+    }
+    .about-me img{
+        width: 100px;
+    }
+    .about-me h5{
+        font-size: 14px;
+    }
+    .skill i{
+        font-size: 28px;
+    }
+    .portofolio .carousel-item .row{
+        height: 190px;
+    }
+    .portofolio h5{
+        font-size: 18px;
+    }
+    .contact h1{
+        font-size: 32px;
+    }
+    .contact img{
+        width: 200px;
+    }
+    .down{
+        display: none;
+    }
+    .page-title{
+        font-size: 32px !important;
+    }
+}
